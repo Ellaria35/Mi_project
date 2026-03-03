@@ -37,7 +37,7 @@ p {
 .header-cont {
   background-image:
     linear-gradient(to right, #000000a5, #000000a5),
-    url(images/hero-picture.jpg);
+    url(hero-picture.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -282,3 +282,4 @@ footer{
   text-align: center;
   margin-top: 2rem;
 }
+
