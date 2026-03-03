@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+.logo {
+  display: flex;
+  margin-left:3rem;
+}
+.logo p {
+  color: white;
+  margin: 0.5rem ;
+  margin-left: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+.logo img{
+    margin-top: .17rem;
+}
+.header {
+  display: flex;
+}
+.header-cont {
+  background-image:
+    linear-gradient(to right, #000000a5, #000000a5),
+    url(images/hero-picture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 95vh;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #235c80;
+  height: 3.7rem;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+ul a {
+  text-decoration: none;
+  color: white;
+}
+.optionsFirst{
+  margin-right: 3rem;
+  padding-top: 0.25rem;
+  font-family: "Montserrat", sans-serif;
+}
+.options {
+  margin-right: 3rem;
+  text-align: center;
+  padding-top: 0.25rem;
+  font-family: "Montserrat", sans-serif;
+}
+.optionsLast{
+margin-top: .25rem;
+}
+.optionsLast a{
+  background: rgb(255, 133, 2);
+  padding: 0.45rem 0.8rem;
+  margin-right: 3rem;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+.optionsFirst:hover, .options:hover{
+    color: rgb(255, 133, 2);
+    background-color: #112d3ead;
+    padding: .4rem .8rem;
+    transition: .5s ease-in-out;
+}
+.optionsLast:hover a{
+    background-color: white;
+    color: #235c80;
+    padding: .49rem .85rem;
+    transition: .5s ease-in-out;
+}
+.caption {
+  display: grid;
+  justify-content: center;
+  margin-top: 9rem;
+}
+.caption h1 {
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  font-size: 115px;
+}
+.caption p {
+  text-align: center;
+  color: white;
+  margin: -1.5rem 0 0 8rem;
+  width: 25rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  font-size: 15px;
+}
+.cta-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 0 0 0;
+}
+.getStarted {
+  padding: 0.8rem 1.6rem;
+  border: none;
+  color: white;
+  background: rgb(255, 133, 2);
+  border-radius: 6px;
+  font-weight: 500;
+  font-family: "Montserrat",sans-serif;
+}
+.getStarted:hover {
+  padding: 1.2rem 2.5rem;
+  transition: .5s ease-in-out;
+  background: white;
+  color: #235c80;
+  font-weight: 700;
+}
+.learnBasics {
+  padding: 0.8rem 1.6rem;
+  border: 1.5px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 6px;
+  font-weight: 500;
+  font-family: "Montserrat",sans-serif;
+}
+.learnBasics:hover{
+    padding: 1.2rem 2.5rem;
+  transition: .5s ease-in-out;
+  background: #235c80;
+  color: white;
+  font-weight: 700;
+  border: 0;
+}
+.positions{
+display: flex;
+justify-content: center;
+gap: 50PX;
+text-align: center;
+flex-wrap: wrap;
+padding: 5rem;
+}
+
+.position{
+    border: 3px solid rgb(255, 133, 2);
+    box-shadow: 0 4px 15px #00000029;
+    height: auto;
+    border-radius: 6px;
+    width: 15rem;
+    padding: 1rem;
+    /* background-color: rgba(255, 133, 2, 0.635); */
+    
+}
+.position:hover{
+    transform: scale(1.2);
+    transition: .9s ease-in-out;
+    border: .5px solid black;
+    box-shadow: 0 4px 15px rgb(255, 133, 2);
+}
+.position img{
+    height: 5rem;
+    width: 5rem;
+}
+h3{
+    font-family: "Montserrat", sans-serif;
+}
+.position-section h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    margin: 20px 20px;
+    color: #0a192f;
+    text-align: center;
+}
+
+.rules-section {
+    padding: 100px 20px;
+    background-color: #e0dede;
+}
+
+.rules-cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.court-diagram img {
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.rules-list h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #0a192f;
+}
+
+.rules-list ul {
+    list-style: none;
+}
+
+.rules-list li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.rules-list span {
+    color: #ff6600;
+    font-weight: bold;
+    margin-right: 15px;
+}
+footer{
+    background-color: #0a192f;
+    color: white;
+    padding: 60px 20px 20px;
+    font-family: "montserrat",sans-serif;
+}
+
+.footer-cont{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+}
+.footerLinks li{
+  list-style: none;
+}
+.footerLinks li a{
+  text-decoration: none;
+  color: white;
+}
+.footerLinks li a:hover{
+  color: rgb(255, 133, 2);
+  transition: .3s ease-in-out;
+}
+.social-icons{
+  display: grid;
+}
+.social-icons .ig, .tt, .yt{
+  text-decoration: none;
+  color: white;
+}
+.social-icons .ig:hover{
+  color: rgb(239, 116, 137);
+  transition: .3s ease-in-out;
+}
+.social-icons .tt:hover{
+  color: rgb(142, 140, 140);
+  transition: .3s ease-in-out;
+}
+.social-icons .yt:hover{
+  color: red;
+  transition: .3s ease-in-out;
+}
+
+.footer-bottom{
+  text-align: center;
+  margin-top: 2rem;
+}
